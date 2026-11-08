@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07100b">
+  <meta name="description" content="Olive (OLV) is a community token issued on the Stellar network. Explore its issuer details and token information.">
+  <meta property="og:title" content="Olive (OLV) — Stellar Token">
+  <meta property="og:description" content="Discover Olive, a digital asset issued on the Stellar network.">
+  <meta property="og:image" content="https://olivecoin.pages.dev/olive.png">
+  <title>Olive (OLV) — Stellar Token</title>
+  <link rel="icon" type="image/png" href="/olive.png">
+  <style>
+    :root { color-scheme: dark; --bg:#050a08; --panel:rgba(13,25,18,.76); --line:rgba(190,207,133,.22); --gold:#e9c66b; --lime:#c4e56b; --muted:#aab5a6; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; min-height:100vh; color:#f5f4e9; background:var(--bg); font:500 16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow-x:hidden; }
+    body:before { content:""; position:fixed; inset:-25%; z-index:-2; background:
+      radial-gradient(ellipse at 72% 32%, rgba(74,111,44,.28), transparent 34%),
+      radial-gradient(ellipse at 15% 75%, rgba(21,91,68,.25), transparent 38%),
+      radial-gradient(ellipse at 50% 0%, rgba(174,135,53,.12), transparent 32%),
+      #050a08; animation: atmosphere 18s ease-in-out infinite alternate; }
+    body:after { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; opacity:.24; background-image:radial-gradient(#d6dca9 1px,transparent 1px),radial-gradient(#8ebc76 1px,transparent 1px); background-size:97px 97px,151px 151px; background-position:0 0,44px 62px; animation: drift 55s linear infinite; }
+    @keyframes drift { to { background-position:700px 500px,-500px 650px; } }
+    @keyframes atmosphere { to { transform:translate3d(2%, -1%, 0) scale(1.04); filter:hue-rotate(12deg); } }
+    @keyframes float { 0%,100% { transform:translateY(0) rotate(-2deg); } 50% { transform:translateY(-13px) rotate(2deg); } }
+    @keyframes pulse { 0%,100% { box-shadow:0 0 18px rgba(196,229,107,.10); } 50% { box-shadow:0 0 34px rgba(196,229,107,.25); } }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1160px, calc(100% - 44px)); margin:auto; }
+    header { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid rgba(255,255,255,.07); }
+    .brand { display:flex; align-items:center; gap:12px; font-size:21px; letter-spacing:.04em; }
+    .brand img { width:42px; height:42px; object-fit:cover; border-radius:50%; border:1px solid rgba(233,198,107,.65); }
+    nav { display:flex; align-items:center; gap:28px; color:#c5cdbf; font-size:14px; }
+    nav a:hover { color:var(--lime); }
+    .button { display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:13px 22px; border-radius:999px; border:1px solid var(--gold); color:#fff7dc; background:linear-gradient(135deg,rgba(169,137,56,.22),rgba(110,149,55,.16)); box-shadow:0 0 24px rgba(196,229,107,.12); transition:.2s ease; font-weight:650; }
+    .button:hover { transform:translateY(-2px); box-shadow:0 0 30px rgba(196,229,107,.25); }
+    .hero { min-height:650px; display:grid; grid-template-columns:1.02fr .98fr; align-items:center; gap:42px; padding:72px 0 56px; }
+    .eyebrow { color:var(--lime); text-transform:uppercase; letter-spacing:.2em; font-size:12px; font-weight:700; }
+    h1 { margin:14px 0 2px; font-size:clamp(54px,8vw,88px); line-height:1.02; letter-spacing:-.055em; font-weight:650; }
+    .ticker { color:var(--gold); font-size:clamp(22px,3vw,30px); letter-spacing:.14em; font-weight:650; }
+    .lead { max-width:520px; color:#c0c9bc; font-size:18px; margin:22px 0 30px; }
+    .pricebox { display:inline-flex; gap:24px; align-items:center; padding:15px 20px; border:1px solid var(--line); border-radius:16px; background:var(--panel); margin-bottom:26px; }
+    .pricebox small { display:block; color:var(--muted); font-size:12px; }
+    .price { color:var(--lime); font-size:22px; font-weight:700; font-variant-numeric:tabular-nums; }
+    .note { color:#879486; font-size:12px; margin-top:10px; }
+    .hero-art { position:relative; display:grid; place-items:center; min-height:460px; }
+    .orbit { position:absolute; width:min(440px,90%); aspect-ratio:1; border:1px solid rgba(205,222,135,.22); border-radius:50%; box-shadow:0 0 70px rgba(91,137,63,.1),inset 0 0 55px rgba(91,137,63,.08); }
+    .orbit:before,.orbit:after { content:""; position:absolute; inset:9%; border:1px solid rgba(233,198,107,.16); border-radius:50%; transform:rotateX(68deg) rotateZ(25deg); }
+    .orbit:after { inset:-6%; transform:rotateX(68deg) rotateZ(-35deg); }
+    .coin { width:min(390px,82%); aspect-ratio:1; border-radius:50%; object-fit:cover; border:2px solid rgba(233,198,107,.7); box-shadow:0 30px 100px rgba(0,0,0,.6),0 0 65px rgba(174,196,75,.2); animation:float 7s ease-in-out infinite; }
+    .features { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; padding:10px 0 70px; }
+    .feature,.panel { background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:24px; backdrop-filter:blur(12px); }
+    .feature strong { display:block; color:#f2e4b9; font-size:16px; margin-bottom:6px; }
+    .feature p,.panel p { margin:0; color:var(--muted); font-size:14px; }
+    .section { padding:42px 0 90px; }
+    .section h2 { font-size:32px; margin:0 0 18px; letter-spacing:-.03em; }
+    .aboutgrid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .details { display:grid; gap:13px; margin-top:18px; }
+    .detail { display:flex; justify-content:space-between; gap:20px; padding-bottom:12px; border-bottom:1px solid rgba(255,255,255,.07); font-size:13px; }
+    .detail span:first-child { color:var(--muted); }
+    .detail code { color:#e7d99f; overflow-wrap:anywhere; text-align:right; }
+    .join { display:flex; align-items:center; justify-content:space-between; gap:25px; padding:30px; border:1px solid rgba(233,198,107,.3); border-radius:22px; background:linear-gradient(110deg,rgba(65,91,38,.2),rgba(17,27,19,.78)); }
+    footer { border-top:1px solid rgba(255,255,255,.08); padding:26px 0 34px; color:#879486; font-size:12px; }
+    @media(max-width:760px) { nav { display:none; } .hero { grid-template-columns:1fr; padding-top:54px; gap:8px; } .hero-art { min-height:360px; } .coin { width:min(310px,78%); } .features { grid-template-columns:1fr; padding-bottom:35px; } .aboutgrid { grid-template-columns:1fr; } .join { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="brand" href="#"><img src="/olive.png" alt="Olive token logo"><span>OLIVE</span></a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#features">Features</a><a href="#details">Token details</a></nav>
+    <a class="button" href="https://stellarterm.com/#exchange/OLV-GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K/XLM-native" target="_blank" rel="noopener noreferrer">Open trading page ↗</a>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div>
+        <div class="eyebrow">A digital asset on Stellar</div>
+        <h1>Olive</h1>
+        <div class="ticker">OLV · TOKEN</div>
+        <p class="lead">A distinctive community token built on the Stellar network, bringing a simple olive-inspired identity to the world of digital assets.</p>
+        <div class="pricebox"><div><small>Displayed token price</small><div class="price">0.0000001 XLM</div></div></div>
+        <div><a class="button" href="https://stellarterm.com/#exchange/OLV-GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K/XLM-native" target="_blank" rel="noopener noreferrer">Explore OLIVE on StellarTerm ↗</a></div>
+        <div class="note">Price shown is the project-provided reference value, not a live market quote.</div>
+      </div>
+      <div class="hero-art" aria-label="Olive token artwork"><div class="orbit"></div><img class="coin" src="/olive.png" alt="3D Olive token coin with green olives and gold trim"></div>
+    </section>
+
+    <section id="features" class="wrap features">
+      <article class="feature"><strong>Stellar Network</strong><p>Issued on an open blockchain designed for digital asset transfers.</p></article>
+      <article class="feature"><strong>Transparent Ledger</strong><p>Public network records allow transactions to be independently explored.</p></article>
+      <article class="feature"><strong>Olive Identity</strong><p>A recognizable green-and-gold visual identity for the OLV asset.</p></article>
+    </section>
+
+    <section id="about" class="wrap section">
+      <div class="aboutgrid">
+        <article class="panel">
+          <div class="eyebrow">The network</div>
+          <h2>Built on Stellar</h2>
+          <p>Stellar is an open-source blockchain network designed to support fast, low-cost payments and the issuance and transfer of digital assets. Its public ledger helps make transactions transparent, while its built-in decentralized exchange supports asset-to-asset markets.</p>
+        </article>
+        <article class="panel" id="details">
+          <div class="eyebrow">Asset information</div>
+          <h2>OLIVE / OLV</h2>
+          <div class="details">
+            <div class="detail"><span>Asset name</span><strong>Olive</strong></div>
+            <div class="detail"><span>Asset code</span><strong>OLV</strong></div>
+            <div class="detail"><span>Network</span><strong>Stellar Mainnet</strong></div>
+            <div class="detail"><span>Reference price</span><strong>0.0000001 XLM</strong></div>
+            <div class="detail"><span>Issuer</span><code>GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K</code></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="join">
+        <div><div class="eyebrow">Discover the project</div><h2 style="margin:8px 0">Explore Olive on Stellar</h2><p>Review the asset details and verify the issuer before interacting with any token.</p></div>
+        <a class="button" href="https://stellarterm.com/#exchange/OLV-GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K/XLM-native" target="_blank" rel="noopener noreferrer">View on StellarTerm ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">© <span id="year"></span> Olive (OLV). Informational project website. Digital assets involve risk; verify all issuer and market information independently.</div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
