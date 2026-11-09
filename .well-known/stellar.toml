@@ -1,0 +1,18 @@
+# Olive (OLV) — Stellar asset metadata
+# Verify all issuer and project details before publishing.
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+[DOCUMENTATION]
+ORG_NAME = "Olive"
+ORG_URL = "https://olivecoin.pages.dev/"
+ORG_DESCRIPTION = "Olive (OLV) is a digital asset issued on the Stellar network. This website provides project information, issuer identification, and links to public Stellar network resources."
+ORG_LOGO = "https://olivecoin.pages.dev/olive.png"
+
+[[CURRENCIES]]
+code = "OLV"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "Olive"
+desc = "Olive (OLV) is a community-oriented digital asset issued on the Stellar blockchain. The project uses an olive-inspired identity and aims to provide a recognizable token presence within the Stellar ecosystem. Stellar is an open-source blockchain network designed for fast, low-cost payments and the issuance and transfer of digital assets. Asset information and issuer identity can be checked on public Stellar ledgers and explorers. This description is informational and does not represent a promise of value, return, liquidity, or market availability."
+image = "https://olivecoin.pages.dev/olive.png"
+display_decimals = 7
