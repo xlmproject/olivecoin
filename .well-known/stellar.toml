@@ -8,7 +8,7 @@ ORG_DESCRIPTION = "Olive (OLV) is a digital asset issued on the Stellar network.
 ORG_LOGO = "https://olivecoin.pages.dev/olive.png"
 
 [[CURRENCIES]]
-code = "OLV"
+code = "OLIVE"
 issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
 name = "Olive"
 desc = "Olive (OLV) is a community-oriented digital asset issued on the Stellar blockchain. The project uses an olive-inspired identity and aims to provide a recognizable token presence within the Stellar ecosystem. Stellar is an open-source blockchain network designed for fast, low-cost payments and the issuance and transfer of digital assets. Asset information and issuer identity can be checked on public Stellar ledgers and explorers. This description is informational and does not represent a promise of value, return, liquidity, or market availability."
@@ -17,41 +17,274 @@ display_decimals = 7
 
 
 [[CURRENCIES]]
-code = ""
+code = "ASTER"
 issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
-name = ""
-desc = "
-image = "https://olivecoin.pages.dev/images/.png"
+name = "ASTER"
+desc = "ASTER is inspired by the beauty of the Aster flower, symbolizing hope, growth, and renewal. Built on the Stellar blockchain, ASTER brings a nature-inspired identity to the digital world, representing innovation and a brighter future."
+image = "https://olivecoin.pages.dev/images/ASTER.png"
+display_decimals = 7
+
+
+
+[[CURRENCIES]]
+code = "AZALEA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "AZALEA"
+desc = ""
+image = "https://olivecoin.pages.dev/images/AZALEA.png"
+display_decimals = 7
+
+
+[[CURRENCIES]]
+code = "BEGONIA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "BEGONIA"
+desc = "BEGONIA is a nature-inspired digital token built on the Stellar blockchain, representing strength, beauty, and growth. Discover BEGONIA and explore its digital potential with confidence."
+image = "https://olivecoin.pages.dev/images/BEGONIA.png"
+display_decimals = 7
+
+   
+[[CURRENCIES]]
+code = "BLUEBELL"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "BLUEBELL"
+desc = "Inspired by the delicate Bluebell flower, symbolizing trust, hope, and new beginnings. Built on Stellar for a brighter digital future."
+image = "https://olivecoin.pages.dev/images/BLUEBELL.png"
+display_decimals = 7
+
+
+   
+[[CURRENCIES]]
+code = "CLOVER"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "CLOVER"
+desc = "Inspired by the four-leaf clover, symbolizing luck, opportunity, and prosperity. Built on Stellar, driven by a vision of growth."
+image = "https://olivecoin.pages.dev/images/CLOVER.png"
+display_decimals = 7
+
+   
+[[CURRENCIES]]
+code = "COSMOS"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "COSMOS"
+desc = "Inspired by the universe, representing endless possibilities, exploration, and innovation. Built on Stellar, designed for a limitless digital future."
+image = "https://olivecoin.pages.dev/images/COSMOS.png"
+display_decimals = 7
+
+   
+[[CURRENCIES]]
+code = "DAHLIA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "DAHLIA"
+desc = "Inspired by the Dahlia flower, symbolizing elegance, strength, and ambition. Built on Stellar, representing a bold digital identity."
+image = "https://olivecoin.pages.dev/images/DAHLIA.png"
+display_decimals = 7
+
+   
+[[CURRENCIES]]
+code = "DAISY"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "DAISY"
+desc = "Inspired by the Daisy flower, symbolizing purity, optimism, and fresh beginnings. Built on Stellar, bringing simplicity to the digital world."
+image = "https://olivecoin.pages.dev/images/DAISY.png"
+display_decimals = 7
+
+ 
+[[CURRENCIES]]
+code = "HEATHER"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "HEATHER"
+desc = "Inspired by the Heather flower, symbolizing resilience, loyalty, and lasting strength. Built on Stellar, representing a strong digital identity."
+image = "https://olivecoin.pages.dev/images/HEATHER.png"
 display_decimals = 7
 
 [[CURRENCIES]]
-code = ""
+code = "HOLIY"
 issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
-name = ""
-desc = "
-image = "https://olivecoin.pages.dev/images/.png"
+name = "HOLIY"
+desc = "Inspired by the Holly plant, symbolizing protection, strength, and resilience. Built on Stellar, representing a lasting digital vision."
+image = "https://olivecoin.pages.dev/images/HOLIY.png"
 display_decimals = 7
 
 [[CURRENCIES]]
-code = ""
+code = "JASMINE"
 issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
-name = ""
-desc = "
-image = "https://olivecoin.pages.dev/images/.png"
+name = "JASMINE"
+desc = "Inspired by the elegance of Jasmine, JASMINE represents purity, harmony, and timeless beauty in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/JASMINE.png"
 display_decimals = 7
 
 [[CURRENCIES]]
-code = ""
+code = "LILY"
 issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
-name = ""
-desc = "
-image = "https://olivecoin.pages.dev/images/.png"
+name = "LILY"
+desc = "LILY TOKEN
+A symbol of purity and renewal, LILY brings a fresh identity to the Stellar ecosystem, inspired by nature and driven by innovation."
+image = "https://olivecoin.pages.dev/images/LILY.png"
 display_decimals = 7
 
 [[CURRENCIES]]
-code = ""
+code = "LOSTUS"
 issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
-name = ""
-desc = "
-image = "https://olivecoin.pages.dev/images/.png"
+name = "LOSTUS"
+desc = "LOSTUS TOKEN
+Inspired by the Lotus flower, LOSTUS symbolizes transformation, resilience, and new beginnings, bringing a unique identity to the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/LOSTUS.png"
 display_decimals = 7
+
+[[CURRENCIES]]
+code = "LUPINE"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "LUPINE"
+desc = "LUPINE TOKEN
+Inspired by the Lupine flower, symbolizing courage, ambition, and independence. A distinctive digital identity built on Stellar."
+image = "https://olivecoin.pages.dev/images/LUPINE.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "PANSY"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "PANSY"
+desc = "PANSY TOKEN
+Inspired by the Pansy flower, representing creativity, individuality, and thoughtful innovation in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/PANSY.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "PEONY"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "PEONY"
+desc = "PEONY TOKEN
+Inspired by elegance and prosperity, PEONY stands for ambition, distinction, and a new digital identity on Stellar."
+image = "https://olivecoin.pages.dev/images/PEONY.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "PHLOX"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "PHLOX"
+desc = "PHLOX TOKEN
+A symbol of vibrant energy and originality, PHLOX brings a fresh perspective to the Stellar digital ecosystem."
+image = "https://olivecoin.pages.dev/images/PHLOX.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "PRIMROSE"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "PRIMROSE"
+desc = "PRIMROSE TOKEN
+Inspired by the first bloom of spring, PRIMROSE represents fresh opportunities, new beginnings, and forward-thinking innovation on Stellar."
+image = "https://olivecoin.pages.dev/images/PRIMROSE.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "ROSE"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "ROSE"
+desc = "ROSE TOKEN
+A timeless symbol of value and elegance, ROSE represents trust, identity, and a new vision in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/ROSE.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "SALVIA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "SALVIA"
+desc = "SALVIA TOKEN
+A symbol of wisdom and originality, SALVIA brings a distinctive identity and fresh vision to the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/SALVIA.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "VERBENA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "VERBENA"
+desc = "VERBENA TOKEN
+Inspired by nature’s resilience, VERBENA represents harmony, renewal, and a unique vision for the digital future. Built on Stellar."
+image = "https://olivecoin.pages.dev/images/VERBENA.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "ZINNIA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "ZINNIA"
+desc = "ZINNIA TOKEN
+A symbol of individuality and lasting spirit, ZINNIA brings bold character and a fresh identity to the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/ZINNIA.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "AZALEA"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "AZALEA"
+desc = "AZALEA TOKEN
+Inspired by elegance and renewal, AZALEA represents independent vision, natural beauty, and a distinctive presence in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/AZALEA.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "DAISY"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "DAISY"
+desc = "DAISY TOKEN
+Inspired by simplicity and fresh beginnings, DAISY represents optimism, originality, and a bright new presence in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/DAISY.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "LILAC"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "LILAC"
+desc = "LILAC TOKEN
+Inspired by elegance and renewal, LILAC represents creativity, fresh perspectives, and a distinctive presence in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/LILAC.png"
+display_decimals = 7
+
+[[CURRENCIES]]
+code = "MARIGOLD"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "MARIGOLD"
+desc = "MARIGOLD TOKEN
+Inspired by the golden flower, MARIGOLD symbolizes confidence, vitality, and a bold vision for the digital future. Built on Stellar."
+image = "https://olivecoin.pages.dev/images/MARIGOLD.png"
+display_decimals = 7
+
+
+[[CURRENCIES]]
+code = "YARROW"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "YARROW"
+desc = "Rooted in resilience and nature, YARROW symbolizes endurance, confidence, and lasting growth on Stellar."
+image = "https://olivecoin.pages.dev/images/YARROW.png"
+display_decimals = 7
+
+ 
+[[CURRENCIES]]
+code = "VIOLET"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "VIOLET"
+desc = "Inspired by the Violet flower, VIOLET represents creativity, individuality, and quiet strength in the digital world."
+image = "https://olivecoin.pages.dev/images/VIOLET.png"
+display_decimals = 7
+
+
+[[CURRENCIES]]
+code = "POPPY"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "POPPY"
+desc = "A symbol of remembrance and renewal, POPPY brings a meaningful identity and a fresh vision to the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/POPPY.png"
+display_decimals = 7
+
+
+[[CURRENCIES]]
+code = "ORCHID"
+issuer = "GAH45DP3FWSZBYRJGHNRGBINUDQJX2LTCAO22BOOGRSV6SDD2BJGTT3K"
+name = "ORCHID"
+desc = "Inspired by elegance and rare beauty, ORCHID represents uniqueness, refinement, and a distinctive identity in the Stellar ecosystem."
+image = "https://olivecoin.pages.dev/images/ORCHID.png"
+display_decimals = 7
+
+.
+
+  
